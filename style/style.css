@@ -70,9 +70,6 @@ section {
   height: 50vh;
   transition: all 1s ease-in-out;
 }
-.card:hover .card-img {
-  transition: all 1s ease-in-out;
-}
 
 .card-img {
   width: auto;
