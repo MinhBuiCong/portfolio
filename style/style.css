@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+
+.card-info {
+  align-items: center;
+}
