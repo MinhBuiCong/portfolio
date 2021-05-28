@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #ffffff, #e0e0e0, #b8b8b8, #8b8b8b);
+  background: linear-gradient(-45deg, #ffffff, #bda6a6, #ffffff, #bda6a6);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -25,17 +25,18 @@ section {
 
 .img-container {
   border-radius: 50%;
-  width: 150px;
+  width: 200px;
   margin: auto;
-  height: 150px;
+  height: 200px;
   overflow: hidden;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 2px 1px rgb(173, 173, 173);
 }
 
 .main img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  object-fit: cover;
 }
 
 .name {
@@ -60,16 +61,21 @@ section {
   align-items: center;
   margin: 0px 50px;
   background-color: white;
-  padding-top: 50px;
+  padding: 25px 0px;
   box-shadow: 3px 3px 3px 1px rgb(139, 139, 139);
+}
+
+.card-rainydays {
+  justify-content: top;
 }
 
 .card:hover .card-info {
   transform: scale(1);
   width: auto;
-  height: auto;
   background-color: white;
   transition: all 1s ease-in-out;
+  height: 50vh;
+  margin-top: 50px;
 }
 
 .card:hover {
@@ -78,6 +84,8 @@ section {
 
 .card-img {
   width: auto;
+  display: flex;
+  align-items: center;
 }
 .card-info {
   align-items: center;
@@ -118,14 +126,16 @@ section {
   color: black;
 }
 
-img {
-  width: 10vw;
-  height: auto;
+.rainydays-logo {
+  width: 20vw;
 }
 
-.rainydays-logo {
-  width: 15vw;
-  height: auto;
+.semester-logo {
+  width: 8vw;
+}
+
+.project-logo {
+  width: 10vw;
 }
 
 @keyframes gradient {
