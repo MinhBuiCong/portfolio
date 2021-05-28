@@ -67,13 +67,17 @@ section {
 .card:hover .card-info {
   transform: scale(1);
   width: auto;
-  height: 50vh;
+  height: auto;
+  background-color: white;
   transition: all 1s ease-in-out;
+}
+
+.card:hover {
+  background-color: white;
 }
 
 .card-img {
   width: auto;
-  margin-bottom: 50px;
 }
 .card-info {
   align-items: center;
@@ -122,7 +126,6 @@ img {
 .rainydays-logo {
   width: 15vw;
   height: auto;
-  margin: auto;
 }
 
 @keyframes gradient {
