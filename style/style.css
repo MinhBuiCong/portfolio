@@ -19,7 +19,7 @@ section {
 }
 
 .title {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 2.5rem;
 }
 
@@ -127,15 +127,15 @@ section {
 }
 
 .rainydays-logo {
-  width: 20vw;
+  width: 300px;
 }
 
 .semester-logo {
-  width: 8vw;
+  width: 150px;
 }
 
 .project-logo {
-  width: 10vw;
+  width: 200px;
 }
 
 @keyframes gradient {
@@ -147,5 +147,102 @@ section {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin-top: 50px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  .img-container {
+    margin-bottom: 25px;
+  }
+  .name {
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
+  .project-section {
+    margin-bottom: 50px;
+  }
+  .card {
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  .card-info {
+    margin-bottom: 50px;
+  }
+  .card-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .card-info span {
+    font-size: 0.9rem;
+  }
+  .card-info h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .card-info p {
+    font-size: 0.9rem;
+  }
+  .card-info .bottom-p {
+    margin-bottom: 25px;
+  }
+  .card-info a {
+    padding: 5px;
+    width: fit-content;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    margin-top: 25px;
+  }
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  .img-container {
+    margin-bottom: 10px;
+  }
+  .name {
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+  }
+  .project-section {
+    margin-bottom: 25px;
+  }
+  .card {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .card-info {
+    margin-bottom: 25px;
+  }
+  .card-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  .card-info span {
+    font-size: 0.8rem;
+  }
+  .card-info h3 {
+    font-size: 0.9rem;
+  }
+  .card-info p {
+    font-size: 0.8rem;
+  }
+
+  .card-info a {
+    padding: 5px;
+    width: fit-content;
+    font-size: 0.9rem;
   }
 }
