@@ -1,7 +1,6 @@
 export const AboutData = {
   id: 0,
   title: "About me",
-  image: me,
   intro: `I am Minh Bui`,
   main: `A frontend-developer`,
   end: `I started my career as an electrician, then I took a 2 year degree to become an engineer in electrician.

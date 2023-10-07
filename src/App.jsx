@@ -5,18 +5,20 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-// import Home from "./components/Home/home";
-// import ProjectPage from "./components/Projects/projectPage";
-// import ProjectDetail from "./components/Projects/projectDetail";
+import Navbar from "./components/Navbar/navbar";
+import Home from "./components/Home/home";
+import ProjectPage from "./components/Projects/projectPage";
+import ProjectDetail from "./components/Projects/projectDetail";
 
 function App() {
     return (
         <Router>
             <main>
+                <Navbar />
                 <Routes>
-                    {/* <Route exact path="/" element={<Home />} /> */}
-                    {/* <Route path="/projects/:id" element={<ProjectDetail />} /> */}
-                    {/* <Route path="/projects" element={<ProjectPage />} /> */}
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/projects/:id" element={<ProjectDetail />} />
+                    <Route path="/projects" element={<ProjectPage />} />
                 </Routes>
             </main>
         </Router>
