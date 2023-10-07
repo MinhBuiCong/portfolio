@@ -1,15 +1,41 @@
 @import "partials/custom";
-@import "partials/navbar";
 @import "partials/projects";
 @import "partials/projectDetail";
 @import "partials/home";
 
 * {
 	font-family: $font-heading;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: red;
+}
+
+.nav-logo {
+    text-align: center;
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.nav-container {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+    }
 }

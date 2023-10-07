@@ -14,12 +14,17 @@ function App() {
     return (
         <Router>
             <main>
-                <Navbar />
+            <div className="nav-logo">
+                <a href="/">
+                    MB
+                </a>
+            </div>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/projects/:id" element={<ProjectDetail />} />
                     <Route path="/projects" element={<ProjectPage />} />
                 </Routes>
+                <Navbar />
             </main>
         </Router>
     );
