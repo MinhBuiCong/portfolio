@@ -1,0 +1,16 @@
+@import "partials/custom";
+@import "partials/navbar";
+@import "partials/projects";
+@import "partials/projectDetail";
+@import "partials/home";
+
+* {
+	font-family: $font-heading;
+}
+
+main {
+	background-image: url("../image/backdrop.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

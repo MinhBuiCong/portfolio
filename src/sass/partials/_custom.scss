@@ -1,0 +1,45 @@
+// colors
+$primary-color: #f68e5f;
+$secondary-color: #646462;
+$footer-color: #fabca0;
+$cta-color: #196b89;
+$text-background-color: #dfdfdf;
+$heading-color: #fff;
+$text-description-color: #eeeeee;
+$navbar-color: rgb(58, 58, 58);
+
+// fonts
+$font-heading: "Poppins", sans-serif;
+$font-text: "Helvetica Neue", serif;
+
+// box shadow
+$box-shadow: 6px 3px 22px -6px rgba(0, 0, 0, 0.1);
+
+// border radius
+$border-radius: 5px;
+
+$heading-primary: 32px;
+$heading-secondary: 28px;
+$text-p: 16px;
+$text-s-head: 20px;
+$text-head: 24px;
+
+main {
+  margin: 0 auto;
+  background-color: $navbar-color;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: $font-heading;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: $font-heading;
+}
